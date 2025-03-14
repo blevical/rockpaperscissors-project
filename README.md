@@ -1,0 +1,1 @@
+For this project, I will be showcasing my new javascript techniques that I have learned in the Odin Project. Some initial challenges that I see is using my newly learned concepts to form the game. A new skill that I believe will assist me in tackling this project is pseudocode and gameplanning beforehand.
