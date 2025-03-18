@@ -6,8 +6,8 @@ const scissors = 2
 
 const aNumber = (window.prompt("Rock...Paper...Scissors...SHOOT!", "0 = Rock, 1 = Paper 2 = Scissors"))
 
-const humanSelection = getHumanChoice()
-const computerSelection = getComputerChoice
+const humanSelection = getHumanChoice ()
+const computerSelection = getComputerChoice ()
 
 let humanScore = 0
 let computerScore = 0
@@ -28,7 +28,16 @@ function getHumanChoice (y) {
 console.log(getHumanChoice(aNumber))
 
 function playRound (humanChoice, getComputerChoice) {
+    if (computerSelection == rock && humanSelection == paper) then (humanScore === 1)
+    else if (computerSelection == paper && humanSelection == rock) then (computerScore === 1)
+    else if (computerSelection == scissors && humanSelection == paper) then (computerScore === 1)
+    else if (computerSelection == paper && humanSelection == scissors) then (humanScore === 1)
+    else if (computerSelection == rock && humanSelection == scissors) then (computerScore === 1)
+    else if (computerSelection == scissors && humanSelection == rock) then (humanScore === 1)
 }
+console.log(humanScore,computerScore,)
+
+playRound(humanSelection, computerSelection);
 
 function playGame(game) {
 
