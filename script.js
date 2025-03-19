@@ -50,7 +50,7 @@ function playGame() {
         const humanSelection = getHumanChoice(choices);
 
         if (humanSelection === null) {
-            alert("Invalid input. Please enter rock, paper, or scissors.");
+            alert("Invalid input. Please select rock, paper, or scissors.");
             continue;
         }
 
